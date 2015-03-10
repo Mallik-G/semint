@@ -5,3 +5,4 @@ Semester Internship Materials and Stuffs
     - worksharing : mostly on Pig/Hive Hadoop
     - multiquery : for multiquery optimization
     - spark : for spark and its ecosystem
+    - systemdesign: documents related to technical details of system design
