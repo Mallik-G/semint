@@ -47,7 +47,7 @@ object WordCount {
 
     for ( i <- 0 to noJob - 1) {
       val oPath = args(4) + i
-      val wordCounts = input.map((_, 1)).reduceByKey(_ + _)
+      val wordCounts = input.reduceByKey(_ + _)
       if (runningMode == "SEQ") {
         wordCounts.saveAsTextFile(oPath)
       } else {
