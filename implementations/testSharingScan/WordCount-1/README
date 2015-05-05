@@ -1,0 +1,8 @@
+WORDCOUNT - TESTING SHARING SCAN
+
+Arguments:
+Number of Jobs
+Running Mode: SEQ for sequential, CON for concurrent
+Caching: 1 for caching, 0 for no Caching
+Input path
+Output path
