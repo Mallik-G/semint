@@ -6,7 +6,7 @@ import org.apache.spark.SparkConf
 
 
 object WordCount {
-  
+
   def main(args: Array[String]) {
 
     val conf = new SparkConf().setAppName("Ten Concurrent WordCounts - No Caching")

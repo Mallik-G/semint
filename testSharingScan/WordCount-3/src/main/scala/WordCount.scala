@@ -6,7 +6,7 @@ import org.apache.spark.SparkConf
 
 
 object WordCount {
-
+  
   def main(args: Array[String]) {
 
     val conf = new SparkConf().setAppName("Ten Concurrent WordCounts - Caching")
@@ -25,35 +25,38 @@ object WordCount {
     val oPath9 = args(2) + "9"
     val oPath10 = args(2) + "10"
 
+    val file = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).cache()
+    file.count()
+
     val threshold1 = args(1).toInt
-    val filtered1 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold1)
+    val filtered1 = file.reduceByKey(_ + _).filter(_._2 >=threshold1)
 
     val threshold2 = args(1).toInt
-    val filtered2 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold2)
+    val filtered2 = file.reduceByKey(_ + _).filter(_._2 >=threshold2)
 
     val threshold3 = args(1).toInt
-    val filtered3 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold3)
+    val filtered3 = file.reduceByKey(_ + _).filter(_._2 >=threshold3)
 
     val threshold4 = args(1).toInt
-    val filtered4 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold4)
+    val filtered4 = file.reduceByKey(_ + _).filter(_._2 >=threshold4)
 
     val threshold5 = args(1).toInt
-    val filtered5 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold5)
+    val filtered5 = file.reduceByKey(_ + _).filter(_._2 >=threshold5)
 
     val threshold6 = args(1).toInt
-    val filtered6 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold6)
+    val filtered6 = file.reduceByKey(_ + _).filter(_._2 >=threshold6)
 
     val threshold7 = args(1).toInt
-    val filtered7 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold7)
+    val filtered7 = file.reduceByKey(_ + _).filter(_._2 >=threshold7)
 
     val threshold8 = args(1).toInt
-    val filtered8 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold8)
+    val filtered8 = file.reduceByKey(_ + _).filter(_._2 >=threshold8)
 
     val threshold9 = args(1).toInt
-    val filtered9 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold9)
+    val filtered9 = file.reduceByKey(_ + _).filter(_._2 >=threshold9)
 
     val threshold10 = args(1).toInt
-    val filtered10 = sc.textFile(args(0)).flatMap(_.split(" ")).map((_,1)).reduceByKey(_ + _).filter(_._2 >=threshold10)
+    val filtered10 = file.reduceByKey(_ + _).filter(_._2 >=threshold10)
 	
 
     val job1 : JobConcurent = new JobConcurent(filtered1, 1, oPath1)
