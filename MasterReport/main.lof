@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The lifetime of a Spark job\relax }}{6}{figure.caption.15}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Catalyst Dataflow\relax }}{9}{figure.caption.33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The design of SparkSQL Server\relax }}{14}{figure.caption.48}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Transformation process of a simple case\relax }}{25}{figure.caption.82}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Transformation process of a complex case\relax }}{26}{figure.caption.83}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Performance comparison with jobs submitted by SparkSQL Server and by users, using Caching\relax }}{28}{figure.caption.87}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Performance comparison with job submitted by SparkSQL Server and by users, using MRShare\relax }}{28}{figure.caption.88}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -1,0 +1,41 @@
+\contentsline {chapter}{Declaration of Authorship}{i}{dummy.1}
+\vspace {1em}
+\contentsline {chapter}{Abstract}{iii}{dummy.2}
+\vspace {1em}
+\contentsline {chapter}{Acknowledgements}{iv}{dummy.3}
+\vspace {1em}
+\contentsline {chapter}{Contents}{v}{dummy.4}
+\contentsline {chapter}{List of Figures}{vii}{dummy.6}
+\contentsline {chapter}{List of Tables}{viii}{dummy.8}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.10}
+\contentsline {chapter}{\numberline {2}Apache Spark}{3}{chapter.11}
+\contentsline {section}{\numberline {2.1}Apache Spark}{3}{section.12}
+\contentsline {subsection}{\numberline {2.1.1}Resilient Distributed Datasets}{4}{subsection.13}
+\contentsline {subsection}{\numberline {2.1.2}Spark Job Lifetime}{5}{subsection.14}
+\contentsline {subsection}{\numberline {2.1.3}The Log Mining Example}{7}{subsection.16}
+\contentsline {section}{\numberline {2.2}Apache SparkSQL}{8}{section.30}
+\contentsline {subsection}{\numberline {2.2.1}DataFrame API}{8}{subsection.31}
+\contentsline {subsection}{\numberline {2.2.2}Catalyst Optimizer}{9}{subsection.32}
+\contentsline {subsection}{\numberline {2.2.3}An application written using SparkSQL}{10}{subsection.34}
+\contentsline {chapter}{\numberline {3}A Work Sharing Framework}{12}{chapter.44}
+\contentsline {section}{\numberline {3.1}Work Sharing}{12}{section.45}
+\contentsline {section}{\numberline {3.2}SparkSQL Server}{13}{section.46}
+\contentsline {subsection}{\numberline {3.2.1}System Design}{13}{subsection.47}
+\contentsline {subsection}{\numberline {3.2.2}Implementations}{15}{subsection.49}
+\contentsline {subsection}{\numberline {3.2.3}An Example on SparkSQL Server}{16}{subsection.50}
+\contentsline {chapter}{\numberline {4}SparkSQL Server in Practice: Scan Sharing}{20}{chapter.75}
+\contentsline {section}{\numberline {4.1}Scan Sharing}{20}{section.76}
+\contentsline {subsection}{\numberline {4.1.1}Current State-of-the-Art}{20}{subsection.77}
+\contentsline {subsection}{\numberline {4.1.2}New Approach for Scan Sharing on Apache Spark}{21}{subsection.78}
+\contentsline {section}{\numberline {4.2}Scan Sharing in SparkSQL Server}{22}{section.79}
+\contentsline {section}{\numberline {4.3}Implementations}{23}{section.80}
+\contentsline {subsection}{\numberline {4.3.1}Simultaneous Pipeline Technique}{23}{subsection.81}
+\contentsline {chapter}{\numberline {5}Experimental Evaluation}{27}{chapter.84}
+\contentsline {section}{\numberline {5.1}Experimental Setup}{27}{section.85}
+\contentsline {section}{\numberline {5.2}Results and Evaluations}{28}{section.86}
+\contentsline {chapter}{\numberline {6}Contributions and Future Works}{31}{chapter.90}
+\contentsline {section}{\numberline {6.1}Contributions}{31}{section.91}
+\contentsline {section}{\numberline {6.2}Future Works}{32}{section.92}
+\vspace {2em}
+\contentsline {chapter}{\numberline {A}How To Use SparkSQL Server}{36}{appendix.94}
+\vspace {2em}

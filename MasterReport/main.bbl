@@ -1,0 +1,97 @@
+\begin{thebibliography}{10}
+
+\bibitem{hadoop}
+\url{http://hadoop.apache.org}.
+
+\bibitem{hive}
+\url{http://hive.apache.org}.
+
+\bibitem{pig}
+\url{http://pig.apache.org}.
+
+\bibitem{spark}
+\url{http://spark.apache.org}.
+
+\bibitem{pigmqo}
+\url{http://wiki.apache.org/pig/PigMultiQueryPerformanceSpecification}.
+
+\bibitem{ashish2009}
+Thusoo Ashish, Sen~Sarma Joydeep, Jain Namit, Shao Zheng, Chakka Prasad,
+  Anthony Sureshm, Liu Hao, Wyckoff Pete, and Murthy Raghotham.
+\newblock {Hive - A Warehousing Solution Over a MapReduce Framework}.
+\newblock 2009.
+
+\bibitem{bayir2007}
+M.A Bayir, I.H Toroslu, and A~Cosar.
+\newblock {Genetic algorithm for the multiple query optimization problem}.
+\newblock In {\em IEEE Transactions on Systems, Man, and Cybernetics}, 2007.
+
+\bibitem{cosar1993}
+A.~Cosar, E.P Lim, and J~Srivastava.
+\newblock {Multiple query optimization with depth first branch-and-bound and
+  dynamic query ordering}.
+\newblock In {\em In Proceedings of the second international conference on
+  Information and knowledge management}, 1993.
+
+\bibitem{Dean2004}
+Jeffrey Dean and Sanjay Ghemawat.
+\newblock {MapReduce : Simplified Data Processing on Large Clusters}.
+\newblock In {\em ACM OSDI}, 2004.
+
+\bibitem{Gates2009}
+AF~Gates, Olga Natkovich, and Shubham Chopra.
+\newblock Building a high-level dataflow system on top of {M}ap-{R}educe: the
+  {P}ig experience.
+\newblock 2009.
+
+\bibitem{georgios2012}
+Giannikis Georgios, Alonso Gustavo, and Kossmann Donald.
+\newblock {SharedDB: Killing One Thousand Queries With One Stone}.
+\newblock 2012.
+
+\bibitem{matei}
+Zaharia Matei, Chowdhury Mosharaf, Das Tathagata, Dave Ankur, Ma~Justin,
+  McCauley Murphy, J.~Franklin Michael, Shenker Scott, and Stoica Ion.
+\newblock {Resilient Distributed Datasets: A Fault-Tolerant Abstraction for
+  In-Memory Cluster Computing}.
+\newblock 2012.
+
+\bibitem{michaelb}
+Armbrust Michael, S.~Xin Reynold, Lian Cheng, Huai Yin, Liu Davies, K.Bradley
+  Joseph, Meng Xiangrui, Kaftan Tomer, J.~Franklin Michael, Ghodsi Ali, and
+  Zaharia Matei.
+\newblock {Spark SQL: Relational Data Processing in Spark}.
+\newblock 2015.
+
+\bibitem{michael2007}
+Isard Michael, Budiu Mihai, Yu~Yuan, Birrell Andrew, and Fetterly Dennis.
+\newblock {Dryad: Distributed Data-Parallel Programs from Sequential Building
+  Blocks}.
+\newblock 2007.
+
+\bibitem{nikiel2010}
+T~et~al Nikiel.
+\newblock {MRShare: Sharing across multiple queries in MapReduce}.
+\newblock 2010.
+
+\bibitem{olston2011}
+C~et~al Olston.
+\newblock {CoScan: Cooperative Scan Sharing in the Cloud}.
+\newblock 2011.
+
+\bibitem{Olston}
+Christopher Olston, Benjamin Reed, and U.~Srivastava.
+\newblock {Pig latin: a not-so-foreign language for data processing}.
+\newblock In {\em ACM SIGMOD}, 2008.
+
+\bibitem{sellis1988}
+T.K Sellis.
+\newblock {Multiple-query optimization}.
+\newblock 1988.
+
+\bibitem{stavros2005}
+Harizopoulos Stavros, Shkapenyuk Vladislav, and Ailamaki Anastassia.
+\newblock {QPipe: A Simultaneously Pipelined Relational Query Engine}.
+\newblock 2005.
+
+\end{thebibliography}

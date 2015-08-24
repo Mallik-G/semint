@@ -1,0 +1,62 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: Bibliography.bib
+Warning--to sort, need author or key in hadoop
+Warning--to sort, need author or key in spark
+Warning--to sort, need author or key in pig
+Warning--to sort, need author or key in hive
+Warning--to sort, need author or key in pigmqo
+Warning--empty journal in ashish2009
+Warning--empty booktitle in Gates2009
+Warning--empty journal in georgios2012
+Warning--empty journal in matei
+Warning--empty journal in michaelb
+Warning--empty journal in michael2007
+Warning--empty journal in nikiel2010
+Warning--empty journal in olston2011
+Warning--empty journal in sellis1988
+Warning--empty journal in stavros2005
+You've used 19 entries,
+            2118 wiz_defined-function locations,
+            572 strings with 6464 characters,
+and the built_in function-call counts, 5149 in all, are:
+= -- 427
+> -- 329
+< -- 0
++ -- 133
+- -- 114
+* -- 325
+:= -- 875
+add.period$ -- 47
+call.type$ -- 19
+change.case$ -- 114
+chr.to.int$ -- 0
+cite$ -- 34
+duplicate$ -- 194
+empty$ -- 407
+format.name$ -- 114
+if$ -- 1040
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 14
+newline$ -- 88
+num.names$ -- 28
+pop$ -- 178
+preamble$ -- 1
+purify$ -- 95
+quote$ -- 0
+skip$ -- 148
+stack$ -- 0
+substring$ -- 95
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 76
+warning$ -- 15
+while$ -- 28
+width$ -- 21
+write$ -- 157
+(There were 15 warnings)
