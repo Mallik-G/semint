@@ -56,6 +56,10 @@ object WordCount {
       }
     }
   }
+  
+  while (true)
+    Thread.sleep(1000)
+  
 }
 
 class JobConcurrent(rdd: RDD[_], id: Integer, output: String) extends Thread {
